@@ -1,0 +1,71 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    text-transform: none;
+    padding: 10px;
+    width: 240px;
+    color: #000;
+    background-color: #04B2E3;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, .3), 2px 6px 20px 0 rgba(0, 0, 0, .29);
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 30%;
+    margin-left: -100px;
+    
+    opacity: 0;
+    
+    -webkit-transition: all 1s ease-out 0s;
+    -moz-transition: all 1s ease-out 0s;
+    -ms-transition: all 1s ease-out 0s;
+    -o-transition: all 1s ease-out 0s;
+    transition: all 1s ease-out 0s;
+}
+
+.tooltip .tooltip-up {
+    top: -100%;
+    left: 30%;
+    margin-left: -100px
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.tooltip:hover {
+	font-weight: bold;
+    visibility: visible;
+
+}
+
+.tooltiptext a {
+    text-decoration: underline;
+    color: #333;
+}
+
+.tooltiptext a:hover {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .tooltip .tooltiptext {
+        font-size: 20px;
+        text-align: center;
+        top: 100%;
+        left: 100%;
+        margin-left: -100px
+    }
+}
