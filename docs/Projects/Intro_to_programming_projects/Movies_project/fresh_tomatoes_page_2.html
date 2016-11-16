@@ -1,0 +1,82 @@
+
+<head>
+    <meta charset="utf-8">
+    <title>Movies Details</title>
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="tomatoes.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="tomatoes.js"></script>
+</head>
+
+<!DOCTYPE html>
+<html lang="en">
+  <body onload="getMovieDetails();">
+
+    <!-- Trailer Video Modal -->
+    <div class="modal" id="trailer">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+            <img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+          </a>
+          <div class="scale-media" id="trailer-video-container">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Details Page Content -->
+    <body>
+    <div id="details-container">
+      <div id="image-container">
+        <div class="images_style_first_section" id="first-section">
+            <img id="movie-image-one" src="">
+        </div>
+        <div class="second-section">
+            <div id="top-section">
+                <div class="images_style_second_top" id="first-inner-section">
+                    <img class="portrait" id="movie-image-two" src="">
+                </div>
+                <div class="images_style_second_top" id="second-inner-left">
+                    <img id="movie-image-three" src="">
+                </div>
+            </div>
+            <div class="images_style_second_bottom" id="bottom-section">
+                <img class="portrait" id="movie-image-four" src="">
+            </div>
+        </div>
+        <div class="third-section">
+            <div class="images_style_third_section" id="top-section">
+                <img id="movie-image-five" src="">
+            </div>
+            <div class="images_style_third_section" id="bottom-section">
+                <img id="movie-image-six" src="">
+            </div>
+        </div>
+      </div>
+      <div>
+        <h1 id="movie-title"></h1>
+        <div class="details-container">
+          <div class="story-line-container">
+            <p id="story-line">
+            </p>
+          </div>
+          <div class="details-list_container">
+            <ul>
+              <li id="film-year"></li>
+              <li id="genre"></li>
+              <li id="film-length"></li>
+              <li id="release-date"></li>
+              <li><a id="awards" href="">Awards</a></li>
+            </ul>
+            <div class="view-trailer" data-toggle="modal" data-target="#trailer">View Trailer</div>
+          </div>
+        </div>
+      </div> 
+    </div>  
+  </body>
+</html>
