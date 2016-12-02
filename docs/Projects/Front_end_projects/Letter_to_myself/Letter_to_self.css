@@ -1,0 +1,195 @@
+    @import 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.css';
+    .container {
+    	width: 70%;
+    	margin: 0 auto;
+    	padding: 40px;
+    	background-color: #fefefe;
+    }
+    *,
+    *:before,
+    *:after {
+        box-sizing: border-box
+    }
+    html {
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%
+    }
+    body {
+        margin: 0
+    }
+    #preview {
+    	background-color: #c2c2c2;
+    	height: auto;
+    }
+    a {
+        background: 0 0
+    }
+    a:active,
+    a:hover {
+        outline: 0
+    }
+    b,
+    strong {
+        font-weight: 700
+    }
+    html {
+        font-size: .875em;
+        background: #fff;
+        color: #373D49
+    }
+    html,
+    body {
+        font-family: Georgia, Cambria, serif;
+        height: 100%
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 2rem
+    }
+    p {
+        padding-top: .66001rem;
+        -webkit-font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
+        font-feature-settings: 'kern' 1, 'onum' 1, 'liga' 1;
+        margin-top: 0
+        margin-bottom: 1.33999rem
+    }
+    blockquote {
+        margin: 0
+    }
+    blockquote p {
+        font-size: 1rem;
+        margin-bottom: .33999rem;
+        font-style: italic;
+        padding: .66001rem 1rem 1rem;
+        border-left: 3px solid #A0AABF
+    }
+    a {
+        cursor: pointer;
+        color: #35D7BB;
+        text-decoration: none
+    }
+    a:hover,
+    a:focus {
+        border-bottom-color: #35D7BB;
+        color: #dff9f4
+    }
+    #preview {
+        padding: 15px
+    }
+    #preview a {
+        color: #A0AABF;
+        text-decoration: underline
+    }
+    @media screen and (min-width: 27.5em) {
+        html {
+            font-size: .875em
+        }
+        body {
+            font-size: 1rem
+        }
+        p {
+            padding-top: .66001rem
+        }
+        p,
+        pre {
+            margin-bottom: 1.33999rem
+        }
+        pre,
+        blockquote p {
+            font-size: 1rem;
+            padding-top: .66001rem
+        }
+        blockquote p {
+            margin-bottom: .33999rem
+        }
+        h2 {
+            font-size: 1.953125rem;
+            margin-bottom: .1835837rem;
+            padding-top: .8164163rem
+        }
+    }
+    @media screen and (min-width: 46.25em) {
+        html {
+            font-size: .875em
+        }
+        body {
+            font-size: 1rem
+        }
+        p {
+            padding-top: .66001rem
+        }
+        p,
+        pre {
+            margin-bottom: 1.33999rem
+        }
+        pre,
+        blockquote p {
+            font-size: 1rem;
+            padding-top: .66001rem
+        }
+        blockquote p {
+            margin-bottom: .33999rem
+        }
+        h2 {
+            font-size: 1.953125rem;
+            margin-bottom: .1835837rem;
+            padding-top: .8164163rem
+        }
+    }
+    @media screen and (min-width: 62.5em) {
+        html {
+            font-size: .875em
+        }
+        body {
+            font-size: 1rem
+        }
+        p {
+            padding-top: .66001rem
+        }
+        p,
+        pre {
+            margin-bottom: 1.33999rem
+        }
+        pre,
+        blockquote p {
+            font-size: 1rem;
+            padding-top: .66001rem
+        }
+        blockquote p {
+            margin-bottom: .33999rem
+        }
+        h2 {
+            font-size: 1.953125rem;
+            margin-bottom: .1835837rem;
+            padding-top: .8164163rem
+        }
+    }
+    @media screen and (min-width: 87.5em) {
+        html {
+            font-size: .875em
+        }
+        body {
+            font-size: 1rem
+        }
+        p {
+            padding-top: .66001rem
+        }
+        p,
+        pre {
+            margin-bottom: 1.33999rem
+        }
+        pre,
+        blockquote p {
+            font-size: 1rem;
+            padding-top: .66001rem
+        }
+        blockquote p {
+            margin-bottom: .33999rem
+        }
+        h2 {
+            font-size: 1.953125rem;
+            margin-bottom: .1835837rem;
+            padding-top: .8164163rem
+        }
+    }

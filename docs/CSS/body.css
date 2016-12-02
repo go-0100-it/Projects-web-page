@@ -1,0 +1,9 @@
+.body {
+    text-align: center;
+    margin: 0;
+    background-color: #2d3c49;
+}
+
+.article-description {
+    padding: 10px 5px;
+}

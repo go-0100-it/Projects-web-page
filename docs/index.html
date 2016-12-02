@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio Project</title>
+        <link rel="stylesheet" href="CSS/libs/bootstrap-menuicon-min.css">
+        <link rel="stylesheet" href="CSS/body.css"/>
+        <link rel="stylesheet" href="CSS/1-2-3-4_grid.css"/>
+        <link rel="stylesheet" href="CSS/navbar.css"/>
+        <link rel="stylesheet" href="CSS/dropdown.css"/>
+        <link rel="stylesheet" href="CSS/header.css"/>
+        <link rel="stylesheet" href="CSS/tooltip.css"/>
+    </head>
+    <body class="body">
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="nav-bar-items"> <a class="nav-item-link" href="#">Portfolio</a> </li>
+                <li class="nav-bar-items dropdown-items"> <a class="nav-item-link" href="#section-one">Programming Basics</a> </li>
+                <li class="nav-bar-items dropdown-items"> <a class="nav-item-link" href="#section-two">Front End</a> </li>
+                <li class="nav-bar-items dropdown-items"> <a class="nav-item-link" href="#section-three">Android Basics</a> </li>
+            </ul>
+            <div class="dropdown">
+                <div class="dropbtn"><span class="glyphicon glyphicon-option-vertical"></span> </div>
+                <div class="dropdown-content">
+                    <a class="dropdown-content-link" href="#section-one">Programming Basics</a>
+                    <a class="dropdown-content-link" href="#section-two">Front End</a>
+                    <a class="dropdown-content-link" href="#section-three">Android Basics</a>
+                </div>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="header-main">
+                <img class="header-logo" src="Images/udacity_logo_trans.png" alt="Logo image">
+                <div class="header-items-container">
+                    <p class="header-item-name">Dave Waters</p>
+                    <p class="header-item-desc">Udacity's coding ninja</p>
+                </div>
+            </div>
+            <div class="header-feature-container">
+                <div class="feature-img-container"> <img class="feature-img" src="Images/main_pic_mini.jpg" width="1950" height="650" alt="Theme image"> </div>
+            </div>
+        </header>
+        <section class="grid">
+            <div class="section-tag" id="section-one"></div>
+            <div class="row title">
+                <h1 class="section-title">Programming Basics</h1>
+            </div>
+            <div class="row row1">
+                <article class="card-container column col-1">
+                    <h3 class="card-first-heading">Project 1</h3>
+                    <h2 class="card-second-heading">Basic Html Page</h2>
+                    <img class="article-img" src="Projects/Intro_to_programming_projects/Basic_HTML_page/Intro_to_programming_project_one.png" alt="Programming Basics Project 1 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/basic_html" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="https://go-0100-it.github.io/basic_html" target="_blank">View Website</a> </li>
+                            <li class="tooltip article-description">This was my first project submission for the Udacity...<span class="tooltiptext">This was my first project submission for the Udacity Intro to programming Nanodegree. This project was to demonstrate my understanding of basic HTML markup.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-2">
+                    <h3 class="card-first-heading">Project 2</h3>
+                    <h2 class="card-second-heading">First Web Page</h2>
+                    <img class="article-img" src="Projects/Intro_to_programming_projects/Web_Site/Intro_to_programming_project_two.png" alt="Intro to Programming project 2 image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/First-Web-Page" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="https://go-0100-it.github.io/First-Web-Page" target="_blank">View Website</a> </li>
+                            <li class="tooltip article-description">This was my second project submission for the Udacity...<span class="tooltiptext">This was my second project submission for the Udacity Intro to programming Nanodegree. This project was to further demonstrate my understanding of HTML markup and additionally, CSS styling. I went a little above and beyond with this project and added some basic functionality with javascript and even incorporated an interactive SVG file inline within my HTML.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-3">
+                    <h3 class="card-first-heading">Project 3</h3>
+                    <h2 class="card-second-heading">Fill in the Blank Quiz</h2>
+                    <img class="article-img" src="Projects/Intro_to_programming_projects/Quiz_app/Intro_to_programming_project_three.png" alt="Intro to Programming project 3 image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="Projects/Intro_to_programming_projects/Quiz_app/src/Quiz_fill-in-the-blanks.py" target="_blank">View project code</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Intro_to_programming_projects/Quiz_app/src/Quiz_fill-in-the-blanks.zip" target="_blank">Download to Try Quiz</a> </li>
+                            <li class="tooltip article-description">This was my third project submission for the Udacity...<span class="tooltiptext">This was my third project submission for the Udacity Intro to programming Nanodegree. For this project I used the Python programming language to build a fill-in-the blank style quiz.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-4">
+                    <h3 class="card-first-heading">Project 4</h3>
+                    <h2 class="card-second-heading">Movies Web Site</h2>
+                    <img class="article-img" src="Projects/Intro_to_programming_projects/Movies_project/Intro_to_programming_project_four.png" alt="Intro to Programming project 4 image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Movie-website" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="https://go-0100-it.github.io/Movie-website" target="_blank">View Website</a> </li>
+                            <li class="tooltip article-description">This was my forth project submission for the Udacity...<span class="tooltiptext">This was my forth project submission for the Udacity Intro to programming Nanodegree.  For this project I was to create a web page listing my favorite movies.  This site was dynamically generated by python code and parsed JSON data.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-5">
+                    <h3 class="card-first-heading">Project 5</h3>
+                    <h2 class="card-second-heading">Single Screen App</h2>
+                    <img class="article-img" src="Projects/Intro_to_programming_projects/Single_screen_app/Single-screen-short-app.png" alt="Intro to Programming project 5 image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Single-screen-app" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Intro_to_programming_projects/Single_screen_app/Single-screen-app.png" target="_blank">View Image</a> </li>
+                            <li class="tooltip article-description">This was my fifth project submission for the Udacity...<span class="tooltiptext">This was my fifth project submission for the Udacity Intro to programming Nanodegree. While this project was super simple, it was a great starting place in learning the fundumentals of XML and getting comfortable with Android studio.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="grid">
+            <div class="section-tag" id="section-two"></div>
+            <div class="row title">
+                <h1 class="section-title">Front End</h1>
+            </div>
+            <div class="row row1">
+                <article class="card-container column col-1">
+                    <h3 class="card-first-heading">Project 1</h3>
+                    <h2 class="card-second-heading">Letter to myself</h2>
+                    <div class="shadow-box">
+                        <img class="article-img" src="Projects/Front_end_projects/Letter_to_myself/Letter_to_self.png" alt="Front End Project 1 Image">
+                        <div class="card-info-container">
+                            <ul class="list">
+                                <li class="card-info-item"><a class="card-link" href="Projects/Front_end_projects/Letter_to_myself/Daves_letter.md.pdf" target="_blank">Letter PDF</a></li>
+                                <li class="card-info-item"><a class="card-link" href="Projects/Front_end_projects/Letter_to_myself/Daves_letter.md.html" target="_blank">Letter HTML</a></li>
+                                <li class="tooltip article-description">The first project of the Front End Nanodegree was...<span class="tooltiptext">The first project of the Front End Web Developer Nanodegree was a letter to my future self, describing how I could solve problems, the skills I have that could help me tackle challenges, and how a 'growth mindset' could help me reach my goals on the other side of any challenge.</span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article class="card-container column col-2">
+                    <h3 class="card-first-heading">Project 2</h3>
+                    <h2 class="card-second-heading">Article to Mockup</h2>
+                    <img class="article-img" src="Projects/Front_end_projects/Design_Mock-up/mockup.png" alt="Front End Project 2 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="Projects/Front_end_projects/Design_Mock-up//blog-mockup.pdf" target="_blank">Mockup PDF</a></li>
+                            <li class="card-info-item"><a a class="card-link" href="Projects/Front_end_projects/Design_Mock-up//myHTML.html" target="_blank">My HTML</a></li>
+                            <li class="tooltip article-description">The next project was to recreate or translate a...<span class="tooltiptext">The next project: translating a mockup to HTML.  For this project I was given a PDF file containing a mockup of a website (and a copy of the text in it) and it was my job to re-create it with HTML.  Also part of the project was to submit personal reflection written in markdown.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-3">
+                    <h3 class="card-first-heading">Project 3</h3>
+                    <h2 class="card-second-heading">Animal Trading Cards</h2>
+                    <img class="article-img" src="Projects/Front_end_projects/Animal_Trading_Card_Project/Animal_trading_card.png" alt="Front End Project 3 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="Projects/Front_end_projects/Animal_Trading_Card_Project/design-prototype.png" target="_blank">ProtoType PNG</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Front_end_projects/Animal_Trading_Card_Project/card.html" target="_blank">My HTML and CSS</a> </li>
+                            <li class="tooltip article-description">Animal Trading Cards, the third project of...<span class="tooltiptext">Simply titled, "Animal Trading Cards", the third project of Udacity's Front End NanoDegree required me to combine the skills I mastered in the problem sets and had me re-create a webpage from a design prototype.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-4">
+                    <h3 class="card-first-heading">Project 4</h3>
+                    <h2 class="card-second-heading">Portfolio Web Page</h2>
+                    <img class="article-img" src="Projects/Front_end_projects/Portfolio_site/alt_portfolio_image.png" alt="Front End Project 4 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Projects-web-page" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="alt_page/portfolio_project_wBootstrap.html" target="_blank">View Web Page</a> </li>
+                            <li class="tooltip article-description">This was my forth project of the Front End...<span class="tooltiptext">This was my forth project of the Front End Web Developer Nanodegree. I was to create a web site to showcase the projects completed during my NanoDegree.  The site was to be based on a provided mock-up. I created two versions, this page that you are currently viewing with my own custom frameworks and an alternative one using Bootstrap and jQuery.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-5">
+                    <h3 class="card-first-heading">Project 5</h3>
+                    <h2 class="card-second-heading">Online Resume</h2>
+                    <img class="article-img" src="Images/coming_soon_image.png" alt="Coming soon Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="#" target="_blank">Coming Soon</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="#" target="_blank">Coming Soon</a> </li>
+                            <li class="tooltip article-description">This project is...<span class="tooltiptext">This project is either in progress or not yet started, please check back soon.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="grid">
+            <div class="section-tag" id="section-three"></div>
+            <div class="row title">
+                <h1 class="section-title">Android Basics</h1>
+            </div>
+            <div class="row row1">
+                <article class="card-container column col-1">
+                    <h3 class="card-first-heading">Project 1</h3>
+                    <h2 class="card-second-heading">Single Screen App</h2>
+                    <img class="article-img" src="Projects/Intro_to_programming_projects/Single_screen_app/Single-screen-short-app.png" alt="Android Basics project 1 image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Single-screen-app" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Intro_to_programming_projects/Single_screen_app/Single-screen-app.png" target="_blank">View Screen Shot</a> </li>
+                            <li class="tooltip article-description">This was my first project for Android...<span class="tooltiptext">This was my first project for Android Basics NanoDegree, The Single Screen App. Super simple but a great starting place in learning the fundumentals of XML.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-2">
+                    <h3 class="card-first-heading">Project 2</h3>
+                    <h2 class="card-second-heading">Court Counter App</h2>
+                    <img class="article-img" src="Projects/Android_basics_projects/Court%20Counter%20App/Court_counter_short_image.png" alt="Android Basics project 2 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Count-Counter_App" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Android_basics_projects/Court%20Counter%20App/Court_counter_image.png" target="_blank">View Screen Shot</a> </li>
+                            <li class="tooltip article-description">This was my second project for Udacity's Android...<span class="tooltiptext">This was my second project for Udacity's Android Basics NanoDegree, The Court Counter. Again, super simple but adding some very basic Java code for functionality. A good example for learning the fundumentals of XML, Java and their integration.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-3">
+                    <h3 class="card-first-heading">Project 3</h3>
+                    <h2 class="card-second-heading">Quiz App</h2>
+                    <img class="article-img" src="Projects/Android_basics_projects/Quiz%20App/Quiz_app_short_image.png" alt="Android Basics project 3 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Quiz-App" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Android_basics_projects/Quiz%20App/Quiz_app_image.png" target="_blank">View Screen Shots</a> </li>
+                            <li class="tooltip article-description">This was my third project for the Udacity's Android...<span class="tooltiptext">This was my third project for the Udacity's Android Basics NanoDegree, The Quiz App. This app was still fairly basic but for the core functionality, it was necessary to expand on the fundamentals of Java. (eg. using methods and conditionals) The notion of multiple activities hadn't been introduced at this point in the program but this app simulated it very well and gave the multi-screen feel by reusing only one view.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-4">
+                    <h3 class="card-first-heading">Project 4</h3>
+                    <h2 class="card-second-heading">Music Structure App</h2>
+                    <img class="article-img" src="Projects/Android_basics_projects/Music%20Player%20App%20Structure/Music_app_short_image.png" alt="Android Basics project 4 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Musical-Structure-App" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Android_basics_projects/Music%20Player%20App%20Structure/Music_app_image.png" target="_blank">View Screen Shots</a> </li>
+                            <li class="tooltip article-description">This was my fourth project for Udacity's Android...<span class="tooltiptext">This was my fourth project for Udacity's Android Basics NanoDegree, The Musical Structure App. The intent of this project was to demonstrate the technics learned for creating multi screen/activity applications. The focus was entirely on the struncture of the UI and the navigation functions, no other functionality was created..</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-5">
+                    <h3 class="card-first-heading">Project 5</h3>
+                    <h2 class="card-second-heading">Report Card App</h2>
+                    <img class="article-img" src="Projects/Android_basics_projects/Report%20Card%20App/report_card_class_image.png" alt="Android Basics project 5 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Report-Card-Class" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Android_basics_projects/Report%20Card%20App/Report%20Card%20Class.java" target="_blank">View Code</a> </li>
+                            <li class="tooltip article-description">This was my fifth project for Udacity's Android...<span class="tooltiptext">This was my fifth project for Udacity's Android Basics NanoDegree, The Report Card App. This project has no associated UI, it is entirely Java code. The code created for this project is a Custom Java Class representing a report card object.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-6">
+                    <h3 class="card-first-heading">Project 6</h3>
+                    <h2 class="card-second-heading">Tour Guide App</h2>
+                    <img class="article-img" src="Projects/Android_basics_projects/Tour%20Guide%20App/tour_guide_app_short_image.png" alt="Android Basics project 6 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Tour-Guide-App" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Android_basics_projects/Tour%20Guide%20App/tour_guide_app_image.png" target="_blank">View Screen Shots</a> </li>
+                            <li class="tooltip article-description">This was my sixth project for Udacity's Android...<span class="tooltiptext">This was my sixth project for Udacity's Android Basics NanoDegree, The Tour Guide App. This app listed all the current attactions in Toronto Ontario, and linked you to those events' web pages.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-7">
+                    <h3 class="card-first-heading">Project 7</h3>
+                    <h2 class="card-second-heading">Book Listing App</h2>
+                    <img class="article-img" src="Projects/Android_basics_projects/Book%20Listing%20App/book_listing_app_short_image.png" alt="Android Basics project 7 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Book-Listing-App" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Android_basics_projects/Book%20Listing%20App/book_listing_app_image.png" target="_blank">View Screen Shots</a> </li>
+                            <li class="tooltip article-description">This was my seventh project for Udacity's Android...<span class="tooltiptext">This was my seventh project for Udacity's Android Basics NanoDegree, The Book Listing App. This section of the NanoDegree introduced basic networking for android applications including APIs, creating and handling Http requests, and parsing JSON. With my newly acquired knowledge and skills I was able to create a book listing app that searches google books by keyword and returns a list of books.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-8">
+                    <h3 class="card-first-heading">Project 8</h3>
+                    <h2 class="card-second-heading">News App</h2>
+                    <img class="article-img" src="Projects/Android_basics_projects/News%20App/news_app_short_image.png" alt="Android Basics project 8 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/News-App" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Android_basics_projects/News%20App/news_app_image.png" target="_blank">View Screen Shots</a> </li>
+                            <li class="tooltip article-description">This was my eighth project for Udacity's Android...<span class="tooltiptext">This was my eighth project for Udacity's Android Basics NanoDegree, The News App. With this app I showcase my understanding of, and the difference between, Async Tasks and Loaders. As well as, demonstrating the ability to parse larger slightly more complex JSON data. This app uses preset values to query The Guardian's APIs then parses the returned JSON data and presents to the user via a custom listview.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-9">
+                    <h3 class="card-first-heading">Project 9</h3>
+                    <h2 class="card-second-heading">Habit Tracker App</h2>
+                    <img class="article-img" src="Projects/Android_basics_projects/Habits%20Tracker%20App/habits_tracker_app_image.png" alt="Android Basics project 9 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Habit-Tracker" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Android_basics_projects/Habits%20Tracker%20App/" target="_blank">View Code</a> </li>
+                            <li class="tooltip article-description">This was my ninth project for Udacity's Android...<span class="tooltiptext">This was my ninth project for Udacity's Android Basics NanoDegree, The Habit Tracker App. This project did not require a UI. The code I created demonstrates how to impement a SQLite Database for Android applications.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="card-container column col-10">
+                    <h3 class="card-first-heading">Project 10</h3>
+                    <h2 class="card-second-heading">Inventory App</h2>
+                    <img class="article-img" src="Projects/Android_basics_projects/Inventory%20App/inventory_app_short_image.png" alt="Android Basics project 10 Image">
+                    <div class="card-info-container">
+                        <ul class="list">
+                            <li class="card-info-item"><a class="card-link" href="https://github.com/go-0100-it/Inventory-App" target="_blank">View on GitHub</a> </li>
+                            <li class="card-info-item"><a class="card-link" href="Projects/Android_basics_projects/Inventory%20App/inventory_app_image.png" target="_blank">View Screen Shots</a> </li>
+                            <li class="tooltip article-description">This was my tenth and final project for Udacity's...<span class="tooltiptext">This was my tenth and final project for Udacity's Android Basics NanoDegree, The Inventory App. The main focus of this project was to demonstrate my acquired knowledge for creating and using SQlite databases. As this was the last project of the program, I incorporated all the concepts, tools, and technics covered throughout the NanoDegree.</span> </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </body>
+</html>

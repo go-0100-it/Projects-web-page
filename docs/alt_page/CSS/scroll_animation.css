@@ -1,0 +1,52 @@
+.animation-container1,
+.animation-container2,
+.animation-container3 {
+    min-height: 150px;
+}
+
+.gone {
+    display: none;
+}
+
+.inline-block {
+    display: block;
+}
+
+.slide-in-right {
+    display: block;
+    animation-name: slideRight;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    visibility: visible !important;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translate(-250%, -950%);
+        box-shadow: 20px 40px 30px 20px rgba(186, 184, 186, 1);
+    }
+
+    20% {
+        transform: translate(8%, 8%);
+    }
+
+    37.5% {
+        transform: translate(-7%, -7%);
+        box-shadow: 5px 6px 25px 0 rgba(186, 184, 186, 1);
+    }
+
+    60% {
+        transform: translate(3%, 3%);
+        box-shadow: 3.5px 5px 17px 0 rgba(186, 184, 186, 1);
+    }
+
+    82.5% {
+        transform: translate(-1%, -1%);
+        box-shadow: 2px 3px 10px 0 rgba(186, 184, 186, 1);
+    }
+    
+    100% {
+        transform: translate(0, 0);
+        box-shadow: 1px 2px 5px 0 rgba(186, 184, 186, 1);
+    }
+}
